@@ -11,7 +11,9 @@ import SwiftUI
 struct Yang_s_SI_1App: App {
     var body: some Scene {
         WindowGroup {
+            NavigationView{
             ContentView()
+            }
         }
     }
 }
